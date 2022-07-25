@@ -23,10 +23,10 @@ date_time.addEventListener("submit", (e) => {
 
     result.innerHTML = `
         <div class="d-flex justify-content-between px-2 py-3  text-white">
-            <div style="width:100px; height:100px;" class="d-flex flex-column bg-primary px-2 py-3 text-white">
-            <span class="d-inline-block h5">${total_day}</span>
-            <span class="h5 px-2"> Day </span>
-            </div>
+        <div style="width:100px; height:100px;" class="d-flex flex-column bg-primary px-2 py-3 text-white">
+        <span class="d-inline-block h5">${total_day}</span>
+        <span class="h5"> Day </span>
+        </div>
            
             :
             <div style="width:100px; height:100px;" class="d-flex flex-column bg-primary px-2 py-3 text-white">
